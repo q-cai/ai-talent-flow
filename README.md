@@ -1,5 +1,7 @@
 # AI Talent Flow Analytics Dashboard
 
+👉 **Live Demo: [https://q-cai.github.io/ai-talent-flow/](https://q-cai.github.io/ai-talent-flow/)**
+
 An interactive dashboard mapping the flow of top-tier AI researchers, engineers, and technical leaders among **10 major AI companies** and an **"Other"** category (academia, smaller startups, and other tech sectors) based on normalized LinkedIn and workforce intelligence data (2023 - 2026).
 
 ## 🚀 Key Features
