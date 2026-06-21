@@ -31,16 +31,43 @@ An interactive dashboard mapping the flow of top-tier AI researchers, engineers,
 - **xAI's Recruitment Mix**: xAI has scaled rapidly by drawing talent from Tesla's autopilot team and targeted poaching from Google DeepMind.
 - **Nvidia's Hold**: Nvidia has high employee retention and remains net positive (+33) due to its core hardware positioning and valuable stock options.
 
+## 🌐 How to Showcase on GitHub (GitHub Pages)
+
+To make this interactive dashboard accessible to anyone at any time, you can host it for free using **GitHub Pages** directly from your repository:
+
+1. Go to your repository on GitHub: **[q-cai/ai-talent-flow](https://github.com/q-cai/ai-talent-flow)**.
+2. Click on the ⚙️ **Settings** tab.
+3. In the left sidebar, click on **Pages** (under the "Code and automation" section).
+4. Under **Build and deployment** -> **Source**, ensure it is set to **"Deploy from a branch"**.
+5. Under **Branch**, select **`main`** and **`/ (root)`** from the dropdowns, then click **Save**.
+6. Wait 1-2 minutes for GitHub to build the page. You will see a live URL at the top of the Pages settings page, which will look like:
+   **`https://q-cai.github.io/ai-talent-flow/`**
+
 ## 💻 How to Run Locally
 
 You can open the dashboard in your web browser by either:
 
 1. **Double-clicking the file** `index.html` directly in your file manager.
-2. **Running a local web server** via python:
+2. **Running a local web server** via Python:
    ```bash
    python3 -m http.server 8000
    ```
    Then navigate to [http://localhost:8000](http://localhost:8000) in your web browser.
 
----
-*Data compiled from LinkedIn public workforce updates and LiveData workforce intelligence reports (2023 - 2026).*
+## 📚 Data Sources & Methodology
+
+This flow matrix and analysis are synthesized from the following workforce intelligence and research sources:
+
+1. **LiveData Technologies (Workforce Intelligence Reports)**:
+   - *Source Type*: Ongoing tracking of LinkedIn professional profiles.
+   - *Details*: Analyses of transition patterns for tech companies (e.g., tracking over 1,300 OpenAI employees to trace historic employers), widely cited by business publications like **Business Insider** to map the "AI Talent War" and employee source distribution.
+   - *Key Reference*: [LiveData Technologies Workforce Analytics](https://www.livedatatechnologies.com/)
+   
+2. **MacroPolo (Paulson Institute - Global AI Talent Tracker)**:
+   - *Source Type*: Career tracking of elite researchers (authors at NeurIPS, ICML, and ICLR conferences).
+   - *Details*: Focuses on international and institutional mobility patterns, assessing how academic and corporate entities attract and retain the top 2% of global AI talent.
+   - *Key Reference*: [MacroPolo Global AI Talent Tracker](https://macropolo.org/)
+
+3. **News & Corporate Press Reports (2023 - 2026)**:
+   - Media reports from *The Information*, *Business Insider*, and *Fast Company* documenting notable high-profile team transfers (such as Google Gemini leaders moving to OpenAI, and Autopilot program managers transitioning to xAI).
+
